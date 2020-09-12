@@ -1,0 +1,1685 @@
+[
+    {
+        "title": "美式培根 ",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0101-美式培根.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "精選漢堡肉",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0102-精選漢堡肉.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "酥炸香雞排",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "田園蔬菜",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0104-田園蔬菜.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "德式大亨堡",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0105-德式大亨堡.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "勁脆薯餅",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0106-薯餅.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "蔥爆豬柳",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "鄉村燻雞",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "鮮炸花枝",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0104-田園蔬菜.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0104-田園蔬菜.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "鮮嫩豬排",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "香檸雞柳",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "藍帶起司豬",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "藍帶起司雞",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "北歐鱈魚",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0104-田園蔬菜.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "海皇鮮蝦",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0104-田園蔬菜.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "西西里雞",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "卡拉雞腿（原味）",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "XXL 卡拉",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "厚切牛肉",
+        "price": "60",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0103-酥炸香雞排.jpg",
+        "category": "美式漢堡"
+    },
+    {
+        "title": "現烤乳酪餅",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "花生/巧克力/奶酥",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0204-高鈣乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "香蒜/草莓/藍莓",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0204-高鈣乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "金華火腿",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "美式培根",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "酥炸香雞排",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "田園蔬菜",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "德式香腸",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "鮮炸花枝",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "香檸雞柳",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "藍帶起司豬",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "藍帶起司雞",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "北歐鱈魚",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "海皇鮮蝦",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "西西里雞",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "卡拉雞腿（原味）",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0201-現烤乳酪餅.jpg",
+        "category": "高鈣乳酪餅"
+    },
+    {
+        "title": "德式香腸",
+        "price": "35",
+        "option1": "+起司",
+        "option2": "+培根",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0301-波浪捲餅.jpg",
+        "category": "波浪捲餅"
+    },
+    {
+        "title": "起司鮮蔬",
+        "price": "40",
+        "option1": "+起司",
+        "option2": "+培根",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0303-雞腿捲餅.jpg",
+        "category": "波浪捲餅"
+    },
+    {
+        "title": "卡拉雞腿（原味）",
+        "price": "50",
+        "option1": "+起司",
+        "option2": "+培根",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0303-雞腿捲餅.jpg",
+        "category": "波浪捲餅"
+    },
+    {
+        "title": "香酥肉鬆",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0403-美式培根.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "金華火腿",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0401-肉鬆白麥土司.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "美式培根",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0403-美式培根.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "精選漢堡肉",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0404-漢堡白麥土司.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "酥炸香雞排",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0404-漢堡白麥土司.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "田園蔬菜",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0406-田園蔬菜白麥土司.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "勁脆薯餅",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0404-漢堡白麥土司.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "蔥爆豬柳",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0408-豬柳白麥土司.jpg",
+        "category": "白麥土司"
+    },
+    {
+        "title": "鄉村燻雞",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "鮮炸花枝",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "鮮嫩豬排",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "香檸雞柳",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "藍帶起司豬",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "藍帶起司雞",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "北歐鱈魚",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "海皇鮮蝦",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "西西里雞",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "卡拉雞腿（原味）",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "白麥土司"
+    },
+    {
+        "title": "XXL 卡拉",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "figure": "",
+        "count": "0",
+        "category": "白麥土司"
+    },
+    {
+        "title": "花生/巧克力/奶酥",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0507-鮮嫩豬排中式燒餅.jpg",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "香蒜/草莓/藍莓",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "美式培根",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0505-鄉村燻雞中式燒餅.jpg",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "田園蔬菜",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "鄉村燻雞",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0507-鮮嫩豬排中式燒餅.jpg",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "鮮嫩豬排",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "西西里雞",
+        "price": "55",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "卡拉雞腿（原味）",
+        "price": "55",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式燒餅"
+    },
+    {
+        "title": "現烤可頌",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0601-四角可頌.jpg",
+        "category": "四角可頌"
+    },
+    {
+        "title": "花生/巧克力/奶酥",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "香蒜/草莓/藍莓",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "金華火腿",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "美式培根",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "田園蔬菜",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "鄉村燻雞",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "鮮嫩豬排",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "西西里雞",
+        "price": "55",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "四角可頌"
+    },
+    {
+        "title": "元氣雞蛋",
+        "price": "20",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0711-德式香腸千層蛋餅.jpg",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "日式芥末",
+        "price": "25",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0702-日式芥末千層蛋餅.jpg",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "香酥肉鬆",
+        "price": "30",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0707-香甜玉米千層蛋餅.jpg",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "金華火腿",
+        "price": "30",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0704-金華火腿千層蛋餅.jpg",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "美式培根",
+        "price": "30",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "香濃乳酪",
+        "price": "30",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "香甜玉米",
+        "price": "30",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "精選漢堡肉",
+        "price": "30",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "酥炸香雞排",
+        "price": "35",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "田園蔬菜",
+        "price": "35",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "德式香腸",
+        "price": "35",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "勁脆薯餅",
+        "price": "35",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "蔥爆豬柳",
+        "price": "40",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "鄉村燻雞",
+        "price": "40",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "鮮炸花枝",
+        "price": "40",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "40",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "",
+        "price": "",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "鮮嫩豬排",
+        "price": "40",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "香檸雞柳",
+        "price": "45",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "藍帶起司豬",
+        "price": "45",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "藍帶起司雞",
+        "price": "45",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "北歐鱈魚",
+        "price": "45",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "海皇鮮蝦",
+        "price": "50",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "西西里雞",
+        "price": "50",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "卡拉雞腿（原味）",
+        "price": "50",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "日式大阪燒",
+        "price": "50",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "XXL 卡拉",
+        "price": "55",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "千層蛋餅"
+    },
+    {
+        "title": "巧克力",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0807-活腿焗烤厚片吐司.jpg",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "花生/奶酥",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0802-花生厚片吐司.jpg",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "奶油/香蒜",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0811-豬柳焗烤厚片吐司.jpg",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "草莓/藍莓",
+        "price": "25",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-0804-草莓厚片吐司.jpg",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "起酥起司",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "火腿焗烤",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "培根焗烤",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "薯餅焗烤",
+        "price": "45",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "鮪魚焗烤",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "豬柳焗烤",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "燻雞焗烤",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "豬排焗烤",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "卡拉焗烤",
+        "price": "60",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "厚片吐司"
+    },
+    {
+        "title": "濃情巧克力",
+        "price": "45",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "香醇花生",
+        "price": "45",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "金華火腿",
+        "price": "60",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "美式培根",
+        "price": "60",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "蔥爆豬柳",
+        "price": "65",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "鄉村燻雞",
+        "price": "65",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "65",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "鮮嫩豬排",
+        "price": "65",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "西西里雞",
+        "price": "75",
+        "option1": "+花生醬",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "熱壓古巴"
+    },
+    {
+        "title": "中式煎餃",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-1001-中式煎餃.jpg",
+        "category": "中式精選"
+    },
+    {
+        "title": "蘿蔔糕",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式精選"
+    },
+    {
+        "title": "原味蔥抓餅",
+        "price": "30",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-1002-羅波糕.jpg",
+        "category": "中式精選"
+    },
+    {
+        "title": "蔥抓總匯",
+        "price": "55",
+        "option1": "+蛋",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "中式精選"
+    },
+    {
+        "title": "荷包蛋",
+        "price": "10",
+        "option1": "+起司",
+        "count": "0",
+        "option2": "",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "培根/火腿",
+        "price": "10",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "小熱狗(4條）",
+        "price": "20",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "鮮嫩豬排",
+        "price": "20",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "德式香腸",
+        "price": "20",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "藍帶起司豬",
+        "price": "25",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "藍帶起司雞",
+        "price": "25",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "麥克雞塊",
+        "price": "30",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "香檸雞柳",
+        "price": "30",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "脆薯",
+        "price": "30",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "薯餅(2片)",
+        "price": "30",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "西西里雞腿",
+        "price": "30",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "卡拉雞腿（原味）",
+        "price": "30",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "XXL 卡拉",
+        "price": "35",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "單點炸物"
+    },
+    {
+        "title": "田園蔬食",
+        "price": "45",
+        "option1": "+沙拉",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "生菜沙拉"
+    },
+    {
+        "title": "煙燻培根",
+        "price": "55",
+        "option1": "+沙拉",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "生菜沙拉"
+    },
+    {
+        "title": "鄉村燻雞",
+        "price": "65",
+        "option1": "+沙拉",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "生菜沙拉"
+    },
+    {
+        "title": "特調鮪魚",
+        "price": "65",
+        "option1": "+沙拉",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "生菜沙拉"
+    },
+    {
+        "title": "巧克力",
+        "price": "15",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "果醬吐司"
+    },
+    {
+        "title": "花生/奶酥",
+        "price": "15",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "果醬吐司"
+    },
+    {
+        "title": "奶油/香蒜",
+        "price": "15",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "果醬吐司"
+    },
+    {
+        "title": "草莓/藍莓",
+        "price": "15",
+        "option1": "+乳酪",
+        "option2": "+起司",
+        "count": "0",
+        "figure": "",
+        "category": "果醬吐司"
+    },
+    {
+        "title": "蘑菇鐵板",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-1404-醬燒牛肉.jpg",
+        "category": "麵食"
+    },
+    {
+        "title": "黑胡椒醬",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "義大利肉麵",
+        "price": "35",
+        "option1": "+蛋",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-1408-鍋燒意麵.jpg",
+        "category": "麵食"
+    },
+    {
+        "title": "醬燒牛肉",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "宮保雞丁",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "日式照燒",
+        "price": "40",
+        "option1": "+蛋",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "青醬意大利",
+        "price": "50",
+        "option1": "+蛋",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "鍋燒意麵",
+        "price": "50",
+        "option1": "+麵",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "鍋燒雞絲",
+        "price": "50",
+        "option1": "+麵",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "鍋燒油麵",
+        "price": "55",
+        "option1": "+麵",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "鍋燒烏龍",
+        "price": "55",
+        "option1": "+麵",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "鍋燒冬粉",
+        "price": "55",
+        "option1": "+麵",
+        "option2": "+豬排",
+        "count": "0",
+        "figure": "",
+        "category": "麵食"
+    },
+    {
+        "title": "優儷紅茶",
+        "price": "15",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "茉香綠茶",
+        "price": "15",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "濃醇奶茶",
+        "price": "20",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "鮮奶茶",
+        "price": "35",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "柳橙汁",
+        "price": "20",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "百香果汁",
+        "price": "20",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "檸檬汁",
+        "price": "20",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "非基改豆漿",
+        "price": "15",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "無糖豆漿",
+        "price": "15",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "薏仁漿",
+        "price": "15",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "美式咖啡",
+        "price": "35",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "特調咖啡",
+        "price": "35",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "咖啡拿鐵",
+        "price": "50",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "玉米濃湯",
+        "price": "35",
+        "option1": "冰/熱",
+        "option2": "大/小",
+        "count": "0",
+        "figure": "",
+        "category": "飲品"
+    },
+    {
+        "title": "兒童炸物餐",
+        "price": "60",
+        "option1": "",
+        "option2": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-1603-特製盤餐.jpg",
+        "category": "特製盤餐"
+    },
+    {
+        "title": "經典豬排餐",
+        "price": "80",
+        "option1": "",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "特製盤餐"
+    },
+    {
+        "title": "主廚總匯餐",
+        "price": "95",
+        "option1": "",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "特製盤餐"
+    },
+    {
+        "title": "熱壓古巴餐",
+        "price": "100",
+        "option1": "",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "特製盤餐"
+    },
+    {
+        "title": "美式牛肉餐",
+        "price": "110",
+        "option1": "",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "特製盤餐"
+    },
+    {
+        "title": "田園蔬菜總匯",
+        "price": "70",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-7/Commerce-07-1701-田園蔬菜總匯土司.jpg",
+        "category": "總匯吐司"
+    },
+    {
+        "title": "特製招牌總匯",
+        "price": "70",
+        "option1": "+起司",
+        "option2": "",
+        "count": "0",
+        "figure": "",
+        "category": "總匯吐司"
+    }
+]

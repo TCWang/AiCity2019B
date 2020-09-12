@@ -1,0 +1,811 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta name="keywords" content="請填寫網站關鍵記事，用半角逗號(,)隔開" />
+<meta name="description" content="各路公車路線
+
+黎明技術學院站下車
+
+
+
+
+
+客運公司
+
+
+路線
+
+
+路線概述
+
+
+經過捷運站
+臺北捷運
+桃園機場捷運線
+
+
+
+
+三重客運
+
+
+786 公西-板橋
+786 區間車
+
+
+公西站&amp;rarr;黎明技術學院&amp;rarr;新板橋車站(第四月台)
+公西站&amp;r..." />
+<meta content="index,follow" name="robots">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKD3CQV');</script>
+<!-- End Google Tag Manager -->
+<title>交通資訊 - 黎明技術學院 - 歡迎您 </title>
+
+<link rel="stylesheet" href="/ezfiles/0/1000/static/combine-zh-tw.css" type="text/css" />
+
+<!--[if lte IE 6]> 
+<link rel="stylesheet" href="/style/style-ie6.css" type="text/css" /> 
+<![endif]-->
+<Link rel="SHORTCUT ICON"  href="/ezfiles/0/1000/sys_1000_2984239_34853.ico" type="image/x-icon" />
+<link rel="Bookmark" href="/ezfiles/0/1000/sys_1000_2984239_34853.ico">
+<script type="text/javascript" src='/lib/js/jquery.js'></script>
+<script type="text/javascript" src='/lib/js/jquery-migrate.js'></script>
+
+<script language="javascript"><!--
+ var isHome = false 
+ --></script>
+<script type="text/javascript" src="/js/20200406.php"></script>
+<script type="text/javascript" src='/lib/js/calendar/scw.zh-tw.js'></script>
+<script type="text/javascript" src='/lib/js/calendar/scw.js'></script>
+<script type='text/javascript'>
+var divOs = new divOsClass('divOs');
+divOs.setInfo('imagedir','/images');
+divOs.setInfo('styledir','/style');
+divOs.setInfo('waitWord','');
+var _SiteCounter=0
+$(document).ready(function(){
+   divOs.runOnload();
+});
+
+var ssoLoginUrl = "";
+</script>
+</head>
+<body class='page_fprint'>
+<div class="fprint_logo"><img src="/ezfiles/0/1000/sys_1000_1217477_01073.png"  width="311" height="77" alt="黎明技術學院 - 歡迎您" border="0"></div>
+
+
+<script language="javascript">
+	var onWin;
+   var forwd_editor = new AjaxEdit('forwd');
+   forwd_editor.setUri("/bin/forwd.php");
+	
+	var attachDet=null
+	
+	function chkRecommend() {
+      var err="";
+		var chk = new strUtil();
+      str=document.getElementById("c_name").value;
+      if(str=="請輸入親友姓名" || chk.isEmpty(str)) {
+         err+='親友姓名必須輸入'+"<br/>";
+      }
+      str=document.getElementById("c_mail").value;
+      if( chk.isEmpty(str) || !chk.isEmail(str)) {
+         err+='Email錯誤'+"<br/>";
+      }
+      str=document.getElementById("commentText").value;
+      if(str=="請輸入推薦說明" || chk.isEmpty(str)) {
+         err+='推薦說明必須輸入'+"<br/>";
+      }
+		str = $('form[name="recommend"] :text[name="authcode"]').val();
+      if(chk.isEmpty(str)) {
+         err+='驗證碼錯誤';
+      }
+      if(!chk.isEmpty(err)) {
+         divOs.openAlertWindow(divOs.AlertFailed,err,"width:300;height:150;Button:ok;top:180",'','','error');
+         return;
+      }
+      else {
+         forwd_editor.sajaxSubmit('','recommend','forwd_editor.callBack');
+		}
+   }
+	function showFunc(id) {
+		if($("#"+id).hasClass("showthis")) {
+			$("#"+id).removeClass("showthis").addClass("hidethis");
+			return true;
+		}
+		$("#func-area").children("div").each(function(){
+			if($(this).hasClass("showthis")) $(this).removeClass("showthis").addClass("hidethis");
+		});
+		$("#"+id).removeClass("hidethis").addClass("showthis");
+	}
+	function showRecommend() {
+		showFunc("module-recommend");
+	}
+	function showAttachDetail(p_seq) {
+		var detail = document.getElementById("attach_detail_"+p_seq);
+		if(detail.style.display == "none")
+			detail.style.display = "block";
+		else
+			detail.style.display = "none";
+	}
+	function showDetail(event,seq,durl){
+		var obj=document.getElementById("detail_choose");
+		if(obj){
+			obj.parentNode.removeChild(obj);
+		}
+		var Div = document.createElement("DIV");
+		var DivH = document.createElement("DIV");
+		var DivM = document.createElement("DIV");
+		var DivD = document.createElement("DIV");
+		var DivContent = document.createElement("DIV");
+		var Icon = document.getElementById("attach_icon_"+seq).value;
+		var Name = document.getElementById("attach_name_"+seq).value;
+		var Size = document.getElementById("attach_size_"+seq).value;
+		var Content = attachDet[seq] ;
+		var DivUrl = document.createElement("DIV");
+	   document.body.appendChild(Div);
+		Div.appendChild(DivH);
+		Div.appendChild(DivM);
+		Div.appendChild(DivD);
+		DivM.appendChild(DivContent);
+		DivM.appendChild(DivUrl);
+		DivContent.style.overflow = "auto";
+		DivContent.style.whiteSpace = "normal";
+		DivContent.style.wordWrap = "break-word";
+		DivContent.style.wordBreak = "break-all";
+      DivContent.style.width = "490px";
+//		DivContent.style.height = "260px";
+		DivContent.style.margin = "5px";
+		DivContent.className="pop-attach";
+		Div.style.width = "500px";
+		Div.style.height = "300px";
+		if(screen.width){
+			Div.style.left = "50%";
+			Div.style.top = "50%";
+			Div.style.margin = "-150px 0 0 -250px";
+		}
+		else{
+			Div.style.left=event.clientX+"px";
+			Div.style.top=event.clientY+"px";
+		}
+		Div.style.textAlign = "left";
+	   Div.style.position="absolute";
+		Div.style.zIndex="1000";
+		Div.style.padding="5px";
+      Div.className="module module-misc";
+		Div.onmouseover = function() {onWin = 1;}
+		Div.onmouseout = function() {onWin = null;}
+		DivH.className="md_top hide_title";
+		DivM.className="md_middle";
+		DivD.className="md_bottom";
+		DivContent.innerHTML = "<div><span><img src="+Icon+" alt=\"\" /></span>&nbsp;<span>"+Name+"</span>&nbsp;<span>"+Size+"</span><div>"+Content+"</div>"
+		if(durl!="")
+			DivUrl.innerHTML = "<a href='"+durl+"' target='blank' title='"+Name+"'>下載附件</a>";
+		Div.id="detail_choose";
+		
+      Div.style.top =parseInt(divOsClass.prototype.getScrollTop())+parseInt(event.clientY)+'px';
+
+	}
+	document.documentElement.onmousedown= function() {
+		var obj = document.getElementById('detail_choose');
+		if (!onWin && obj) 
+		document.body.removeChild(obj);
+	}
+</script>
+<script language="javascript">
+setRecentCookie('RecentPart','17724',',','/',525600,10);
+</script>
+<div class="module module-ptdetail pt_style1">
+	<div class="md_top hide_title"><div class="mt_03"><div class="mt_02"><div class="mt_01">
+	</div></div></div></div>
+
+			
+
+	<div class="md_middle"><div class="mm_03"><div class="mm_02"><div class="mm_01">
+	
+		<h2 class="h4 item-title">
+交通資訊
+
+</h2>                                                                        
+
+
+
+
+<div class="ptcontent clearfix floatholder">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="imagetable float-left"><tr><td>
+
+
+<div class="imagelist vertical">
+
+<ul >
+
+</ul>
+
+
+
+
+</div>
+
+
+</td>
+</tr>
+<tr>
+<td>
+</td>
+</tr></table>
+
+
+
+
+
+
+
+
+
+<p style="background:#F7F7F7;"><span style="font-size:20px;"><span style="font-family:微軟正黑體;"><span style="background-color:#ffff00;">各路公車路線&nbsp;</span>&nbsp;&nbsp;</span></span><span style="font-size:14px;"><span style="background-color: rgb(255, 255, 255);">(查詢請點連結)</span><span style="font-family: 微軟正黑體;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span><span style="font-family: 微軟正黑體; font-size: 14px;">&nbsp;2018.12.25總務處更新</span></p>
+<ul>
+<li style="background: rgb(247, 247, 247);"><strong><span style="font-family:新細明體,serif;"><span style="font-size:9.0pt;">黎明技術學院站下車</span></span></strong></li>
+</ul>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:none;">
+<tbody>
+<tr>
+<td style="width:82px;border:solid windowtext 1.0pt;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;">&nbsp;</p>
+<p align="center" style="text-align:center;"><span style="font-size:14px;"><span style="font-family:微軟正黑體;"><strong>客運公司</strong></span></span></p>
+</td>
+<td style="width:193px;border:solid windowtext 1.0pt;border-left:none;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;">&nbsp;</p>
+<p align="center" style="text-align:center;"><span style="font-size:14px;"><span style="font-family:微軟正黑體;"><strong>路線</strong></span></span></p>
+</td>
+<td style="width:299px;border:solid windowtext 1.0pt;border-left:none;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;">&nbsp;</p>
+<p align="center" style="text-align:center;"><span style="font-size:14px;"><span style="font-family:微軟正黑體;"><strong>路線概述</strong></span></span></p>
+</td>
+<td style="width:189px;border:solid windowtext 1.0pt;border-left:none;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;"><span style="font-size:14px;"><span style="font-family:微軟正黑體;"><strong>經過捷運站</strong></span></span></p>
+<p align="center" style="text-align:center;"><span style="font-size:8px;"><strong><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/108439610.jpg">臺北捷運</a></strong></span></p>
+<p align="center" style="text-align:center;"><span style="font-size:8px;"><strong><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/155502414.jpg">桃園機場捷運線</a></strong></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="4" style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-size:8px;"><span style="font-family:微軟正黑體;"><a href="http://www.sanchung-bus.com.tw/?lang=1&amp;TTo=zh-tw">三</a></span><span style="font-family:arial,helvetica,sans-serif;"></span></span><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.sanchung-bus.com.tw/?lang=1&amp;TTo=zh-tw">重客運</a></span></span></p>
+</td>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/786.jpg">786 公西-板橋</a></span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：尖峰15-20分鐘、離峰30分鐘</span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：05：00-22：00</span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/777223013.jpg">786 區間車</a></span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">發車時間：05：40、06：00(假日停駛)</span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">公西站&rarr;黎明技術學院&rarr;新板橋車站(第四月台)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">公西站&rarr;黎明技術學院&rarr;捷運新莊站(新莊郵局)</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運長庚醫院站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運泰山站((桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運新莊站-新莊郵局<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運府中站-府中路<span style="color:#0000ff;">(板南線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/858-1.jpg">858&nbsp;新北市市區公車</a></span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：尖峰10-15分鐘、離峰15-20分鐘、例假日固定班次</span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：04：50-21：00</span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">樹林站&rarr;黎明技術學院&rarr;公西站(林口長庚醫院)</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運丹鳳站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運泰山貴和站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運長庚醫院站(桃園機場捷運線)</span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/898.jpg">898&nbsp;新北市市區公車</a></span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：固定班次(<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/898.jpg">請點</a>)</span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：05：00-21：00</span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">迴龍站&rarr;黎明技術學院&rarr;林口長庚醫院</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運迴龍站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運泰山貴和站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運林口站(桃園機場捷運線)</span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1209.jpg">1209 公西-臺北北門(經林口國宅)</a></span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：尖峰20-30分鐘、離峰30-60分鐘、例假日30-60分鐘</span></span></p>
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：05：00-21：50</span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">公西站&rarr;黎明技術學院&rarr;臺北北門</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運新莊站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運頭前庄站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運菜寮站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運台北橋站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運大橋頭站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運北門站<span style="color:#008000;">(松山新店線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="3" style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.csgroup-bus.com.tw/">中興巴士</a></span></span></p>
+</td>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/46/616.jpg">616 泰山-天母</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：尖峰12-15分鐘、離峰15-20分鐘、<span style="color: rgb(34, 34, 34);">例假日</span><span style="color: rgb(34, 34, 34);">30分鐘，18：00後30分一班</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(34, 34, 34);">05:30-22:00</span></span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">泰山站&rarr;黎明技術學院&rarr;天母</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運泰山站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運先嗇宮站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運菜寮站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運台北橋站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運民權西路站(<span style="color:#ff8c00;">中和新蘆線</span>、<span style="color:#ff0000;">淡水信義線</span>)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運劍潭站-基河<span style="color:#ff0000;">(淡水信義線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運芝山站-福華<span style="color:#ff0000;">(淡水信義線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運芝山站-文林<span style="color:#ff0000;">(淡水信義線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p style="text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/820.jpg">820 泰山-捷運民權西路</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：固定15車次，例假日停駛</span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(34, 34, 34);">05:40-19:00</span></span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">泰山站&rarr;黎明技術學院&rarr;捷運民權西路站</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運泰山站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運先嗇宮站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運菜寮站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運台北橋站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運民權西路站(<span style="color:#ff8c00;">中和新蘆線</span>、<span style="color:#ff0000;">淡水信義線</span>)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運雙連站<span style="color:#ff0000;">(淡水信義線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/918.jpg">918 泰山-新店</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：<span style="color: rgb(34, 34, 34);">尖峰6-8分鐘、離峰10-15分鐘、</span><span style="color: rgb(34, 34, 34);">例假日15-</span><span style="color: rgb(34, 34, 34);">20分鐘，21：30後20分一班</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(34, 34, 34);">05:30-22:30</span></span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">泰山站&rarr;黎明技術學院&rarr;新店</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運泰山站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運頭前庄站-思源路<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運新埔站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運七張站-新店區公所<span style="color:#008000;">(松山新店線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運新店區公所站-北新<span style="color:#008000;">(松山新店線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運新店區公所站-中華<span style="color:#008000;">(松山新店線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.csgroup-bus.com.tw/">指南客運</a></span></span></p>
+</td>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/838.jpg">838 泰山-關渡捷運站</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(0, 0, 0);">班距：固定班次</span>(<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/838.jpg">請點</a>)</span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">一般日頭末班車時間：<span style="color: rgb(34, 34, 34);">06:00-21:30</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">例假日<span style="color: rgb(34, 34, 34);">頭末班車時間：</span><span style="color: rgb(34, 34, 34);">06:30-21:30</span></span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">泰山站&rarr;黎明技術學院&rarr;捷運關渡站</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運關渡站<span style="color:#ff0000;">(淡水信義線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:193px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/133865214.jpg">橘10 泰山-捷運三民高中站</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：<span style="color: rgb(34, 34, 34);">固定班次</span><span style="color: rgb(34, 34, 34);">(</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/133865214.jpg">請點</a><span style="color: rgb(34, 34, 34);">)</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(34, 34, 34);">06:10-22:00</span></span></span></p>
+</td>
+<td style="width:299px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">泰山站&rarr;黎明技術學院&rarr;捷運三民高中站</span></span></p>
+</td>
+<td style="width:189px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運蘆洲站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運三民高中站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li style="background: rgb(247, 247, 247);"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><strong>高公局站下車<span style="color:#0e62a2;"></span></strong></span></span></li>
+</ul>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:none;">
+<tbody>
+<tr>
+<td style="width:82px;border:solid windowtext 1.0pt;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><strong>客運公司</strong></span></span></p>
+</td>
+<td style="width:303px;border:solid windowtext 1.0pt;border-left:none;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><strong>路線</strong></span></span></p>
+</td>
+<td style="width:191px;border:solid windowtext 1.0pt;border-left:none;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><strong>路線概述</strong></span></span></p>
+</td>
+<td style="width:191px;border:solid windowtext 1.0pt;border-left:none;background:#F79646;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><strong>經過捷運站</strong></span></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><a href="http://www1.cgmh.org.tw/frms/frms1.htm"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">汎</span></span></a><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="https://www1.cgmh.org.tw/frms/frms1.htm">航客運</a></span></span></p>
+</td>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/2000.png">2000 林口長庚-台北長庚</a></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：每隔10-20分鐘一班車</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口長庚：頭班06:20　末班23:40</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(51, 51, 51); text-align: -webkit-center;">台北長庚：頭班06:20　末班24:20</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口長庚醫院&rarr;高公局&rarr;台北長庚醫院</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/2001.png">2001&nbsp;桃園龜山-臺北市成淵高中</a></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：每隔<span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">10-30</span><span style="color: rgb(0, 0, 0); text-align: center;">分鐘一班車</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(0, 0, 0); text-align: center;">林口長庚：頭班</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">06:00</span><span style="color: rgb(0, 0, 0); text-align: center;">　末班</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">23:10</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(0, 0, 0); text-align: center;">臺北車站北一門：頭班約</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">06:30</span><span style="color: rgb(0, 0, 0); text-align: center;">　末班約</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">23:40</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口長庚醫院&rarr;高公局&rarr;成淵高中</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.mtcbus.com.tw/index.php?m=Route">大都會客運</a></span></span></p>
+</td>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/937.png">937 林口-捷運圓山站</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：<span style="color: rgb(34, 34, 34);">尖峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">7-12</span><span style="color: rgb(34, 34, 34);">分鐘、離峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">15-20</span><span style="color: rgb(34, 34, 34);">分鐘、</span><span style="color: rgb(34, 34, 34);">例假日</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">15-20</span><span style="color: rgb(34, 34, 34);">分鐘</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:40</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">22:40</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口&rarr;高公局&rarr;捷運圓山站</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運林口站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運圓山站<span style="color:#ff0000;">(淡水信義線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"></span></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="7" style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.sanchung-bus.com.tw/?lang=1&amp;TTo=zh-tw">三重客運</a></span></span></p>
+</td>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/936.jpg">936&nbsp;新北市快速公車</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：<span style="color: rgb(34, 34, 34);">尖峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">5-8</span><span style="color: rgb(34, 34, 34);">分鐘、離峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">10-15</span><span style="color: rgb(34, 34, 34);">分鐘、</span><span style="color: rgb(34, 34, 34);">例假日</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">12-20</span><span style="color: rgb(34, 34, 34);">分鐘</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:30</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">23:30</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口(師大林口校區)&rarr;高公局&rarr;捷運圓山站</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運林口站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運圓山站<span style="color:#ff0000;">(淡水信義線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/945.jpg">945&nbsp;新北市快速公車</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><font color="#000000">班距：</font><span style="color: rgb(34, 34, 34);">尖峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">12-15</span><span style="color: rgb(34, 34, 34);">分鐘、離峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">20-30</span><span style="color: rgb(34, 34, 34);">分鐘、</span><span style="color: rgb(34, 34, 34);">例假日</span><font color="#333333"><span style="background-color: rgb(247, 247, 247);">固定班次(<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/945.jpg">請點</a>)</span></font></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:40</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">22:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口&rarr;高公局&rarr;松山機場</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運林口站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運行天宮站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">松山機場-3號月台<span style="color:#008000;">(松山新店線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/946.jpg">946&nbsp;新北市快速公車</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><font color="#000000">班距：</font>固定班次(<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/946.jpg">請點</a>)</span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">一般日頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:40</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">22:40</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">例假日頭末班車時間<span style="color: rgb(34, 34, 34);">：</span><span style="color: rgb(34, 34, 34);">06:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">19:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口&rarr;高公局&rarr;內湖科技園區</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運林口站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運西湖站<span style="color:#8b4513;">(文湖線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/986.jpg">986&nbsp;新北市捷運機場先導公車</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><font color="#000000">班距：</font><font color="#333333"><span style="background-color: rgb(247, 247, 247);">固定班次(<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/986.jpg">請點</a>)</span></font></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">一般日頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">06:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">22:00</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">例假日頭末班車時間<span style="color: rgb(34, 34, 34);">：</span><span style="color: rgb(34, 34, 34);">06:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">20:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">蘆洲&rarr;高公局&rarr;桃園機場</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運蘆洲站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運三民高中站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運徐匯中學站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運三和國中站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運三重站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運林口站-八德路(桃園機場捷運線)</span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1210.jpg">1210 林口竹林山觀音寺-台北車站</a></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><font color="#000000" style="font-size: 8px; text-align: justify;">班距：</font><span style="text-align: justify;">尖峰</span><span style="text-align: justify; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">5-10</span><span style="text-align: justify;">分鐘、離峰</span><span style="text-align: justify; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">10-15</span><span style="text-align: justify;">分鐘</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">單雙邊設站</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(0, 0, 0); text-align: center;">林口站：頭班</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">05:30</span><span style="color: rgb(0, 0, 0); text-align: center;">　末班</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">22:30</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(0, 0, 0); text-align: center;">臺北車站：頭班約</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">06:20</span><span style="color: rgb(0, 0, 0); text-align: center;">　末班約</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">23:20</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口竹林山觀音寺&rarr;高公局&rarr;台北車站</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">台北車站(<span style="color:#0000ff;">板南線</span>、<span style="color:#ff0000;">淡水信義線</span>)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運大橋頭站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1211_1.jpg">1211 長庚大學-臺北市政府</a></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><font color="#000000" style="font-size: 8px; text-align: justify;">班距：</font><span style="text-align: justify;">尖峰</span><span style="text-align: justify; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">10-15</span><span style="text-align: justify;">分鐘、離峰</span><span style="text-align: justify; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">20-30</span><span style="text-align: justify;">分鐘</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">單雙邊設站</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(0, 0, 0); text-align: center;">長庚大學站：頭班</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">05:10</span><span style="color: rgb(0, 0, 0); text-align: center;">　末班</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">21:30</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><span style="color: rgb(0, 0, 0); text-align: center;">臺北市政府站：頭班約</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">06:30</span><span style="color: rgb(0, 0, 0); text-align: center;">　末班約</span><span lang="EN-US" style="color: rgb(0, 0, 0); text-align: center;">22:45</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">桃園長庚大學&rarr;高公局&rarr;臺北市政府</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">市府轉運站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運忠孝敦化站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1212.jpg">1212 桃園縣龜山區-三重區</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><font color="#000000">班距：</font><font color="#333333"><span style="background-color: rgb(247, 247, 247);">固定班次(<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1212.jpg">請點</a>)</span></font></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">06:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">19:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">公西&rarr;高公局&rarr;三重區三和路</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運菜寮站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"></span></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="3" style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.tpebus.com.tw/">臺北客運</a></span></span></p>
+</td>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/920.gif">920 林口-板橋</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：<span style="color: rgb(34, 34, 34);">尖峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">10-15</span><span style="color: rgb(34, 34, 34);">分鐘、離峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">20-30</span><span style="color: rgb(34, 34, 34);">分鐘、</span><span style="color: rgb(34, 34, 34);">例假日</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">15-20</span><span style="color: rgb(34, 34, 34);">分鐘</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">一般日頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">22:00</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">例假日<span style="color: rgb(34, 34, 34);">頭末班車時間：</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:30</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">22:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口&rarr;高公局&rarr;板橋公車站</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運頭前庄站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運新埔站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運府中站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運板橋站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/925.gif">925 林口-蘆洲</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：<span style="color: rgb(34, 34, 34);">尖峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">10-15</span><span style="color: rgb(34, 34, 34);">分鐘、離峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">20-30</span><span style="color: rgb(34, 34, 34);">分鐘、</span><span style="color: rgb(34, 34, 34);">例假日</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">20-30</span><span style="color: rgb(34, 34, 34);">分鐘</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">一般日頭末班車時間：</span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口發車<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:30</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">23:00</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">蘆洲發車<span style="color: rgb(34, 34, 34);">05:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">23:00</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">例假日<span style="color: rgb(34, 34, 34);">頭末班車時間：</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口發車<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:50</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">23:00</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">蘆洲發車<span style="color: rgb(34, 34, 34);">05:20</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">23:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口站&rarr;高公局&rarr;捷運蘆洲站</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運三和國中站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運徐匯中學站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運三民高中站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運蘆洲站<span style="color:#ff8c00;">(中和新蘆線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/948.gif">948 林口-板橋</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><font color="#000000">班距：</font><span style="background-color: rgb(247, 247, 247);">固定班次</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">一般日頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:40</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">19:00</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">例假日<span style="color: rgb(34, 34, 34);">頭末班車時間：</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">06:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">19:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">林口站&rarr;高公局&rarr;捷運板橋站</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運林口站(桃園機場捷運線)</span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運府中站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運板橋站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.tybus.com.tw/">桃園客運</a></span></span></p>
+</td>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/5116.jpg">5116 桃園-松山機場</a></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.tybus.com.tw/default.aspx?page=BusTime">班距</a>(查詢請點連結)</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">桃園&rarr;高公局&rarr;松山機場</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運中山國中站<span style="color:#8b4513;">(文湖線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/9005.jpg">9005 桃園-台北101</a></span></span></p>
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.tybus.com.tw/default.aspx?page=BusTime">班距</a>(查詢請點連結)</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">桃園&rarr;高公局&rarr;市府轉運站</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">市府轉運站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://www.capital-bus.com.tw/">首都客運</a></span></span></p>
+</td>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/952.gif">952 板橋-南崁</a></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">班距：<span style="color: rgb(34, 34, 34);">尖峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">10-12</span><span style="color: rgb(34, 34, 34);">分鐘、離峰</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">15-20</span><span style="color: rgb(34, 34, 34);">分鐘、</span><span style="color: rgb(34, 34, 34);">例假日</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">15-20</span><span style="color: rgb(34, 34, 34);">分鐘</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">一般日頭末班車時間：<span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">05:40</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">23:00</span></span></span></p>
+<p style="margin-top: 10px; margin-bottom: 10px; color: rgb(0, 0, 0); font-family: verdana, arial, verdana; font-size: 15px; text-align: justify;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">例假日<span style="color: rgb(34, 34, 34);">頭末班車時間：</span><span style="color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">06:00</span><span style="color: rgb(34, 34, 34);">-</span><span style="color: rgb(34, 34, 34);">23:00</span></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">板橋公車站(第四月台)&rarr;高公局&rarr;南上路口</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">捷運府中站<span style="color:#0000ff;">(板南線)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width:82px;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+<p align="center" style="text-align:center;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"><a href="http://ordertickets.ubus.com.tw/">統聯客運</a></span></span></p>
+</td>
+<td style="width:303px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;">中港轉運站、台南、高雄等路線</span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:8px;"></span></span></p>
+</td>
+<td style="width:191px;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;">
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="background:#F7F7F7;"><span style="font-size:9px;"></span></p>
+<table border="0" cellpadding="0" cellspacing="0" style="width:100.0%;" summary="" width="100%">
+<tbody>
+<tr>
+<td style="padding:0cm 0cm 0cm 0cm;vertical-align:top;">
+<p><span style="font-size:18px;"><strong style="color: rgb(51, 51, 51); font-family: 細明體; font-size: 14px;">◎ 轉乘資訊</strong></span><span style="color: rgb(51, 51, 51); font-family: 細明體; font-size: 14px;">：</span></p>
+<p style="text-align: justify;"><span style="font-size:9px;"><span style="font-family:微軟正黑體;"><span style="color: rgb(51, 51, 51);">&nbsp; &nbsp; &nbsp; &nbsp;一、可先搭乘公車至新莊轉乘「</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1209.jpg"><font color="#40678a" face="verdana, arial, verdana">1209&nbsp;公西-臺北北門(經林口國宅</font></a><font color="#40678a" face="verdana, arial, verdana">)</font><span style="color: rgb(51, 51, 51);">」及「</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/786.jpg"><font color="#40678a" face="verdana, arial, verdana">786&nbsp;公西-板橋</font></a><span style="color: rgb(51, 51, 51);">」等線路公車。</span></span></span></p>
+<p style="text-align: justify;"><span style="font-size:9px;"><span style="font-family:微軟正黑體;"><span style="color: rgb(51, 51, 51);">&nbsp; &nbsp; &nbsp; &nbsp;二、亦可坐捷運至捷運泰山站或泰山貴和站後轉乘「</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/898.jpg"><font style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">898&nbsp;</font><font style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">新北市市區公車</font></a><span style="color: rgb(51, 51, 51);">」</span>「<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/786.jpg"><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">786&nbsp;</span><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">公西</span><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">-</span><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">板橋</span></a><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;"></span>」</span></span></p>
+<p style="text-align: justify;"><span style="font-size:9px;"><span style="font-family:微軟正黑體;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;「<a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/46/616.jpg"><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">616&nbsp;</span><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">泰山</span><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">-</span><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;">天母</span></a><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;"></span><span style="color: rgb(64, 103, 138); font-family: verdana, arial, verdana;"></span>」</span></span><span style="font-family: 微軟正黑體; font-size: 9px;">「</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/918.jpg"><font color="#40678a" face="verdana, arial, verdana" size="1">918&nbsp;泰山-新店</font></a><span style="font-family: 微軟正黑體; font-size: 9px;">」「</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1209.jpg"><font color="#40678a" face="verdana, arial, verdana" size="1">1209&nbsp;公西-臺北北門(經林口國宅)</font></a><span style="font-family: 微軟正黑體; font-size: 9px;">」等線路公車至本校。</span></p>
+<p style="text-align: justify;"><span style="font-size:9px;"><span style="font-family:微軟正黑體;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">&nbsp; &nbsp; &nbsp; &nbsp;三、</span>桃園地區之學生可先搭車至公西站轉乘<span style="color: rgb(51, 51, 51);">「</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/1209.jpg"><font color="#40678a" face="verdana, arial, verdana">1209&nbsp;公西-臺北北門(經林口國宅)</font></a><span style="color: rgb(51, 51, 51);">」及「</span><a href="http://oga.lit.edu.tw/ezfiles/14/1014/img/330/786.jpg"><font color="#40678a" face="verdana, arial, verdana">786&nbsp;公西-板橋</font></a><span style="color: rgb(51, 51, 51);">」</span>。</span></span></p>
+</td>
+</tr>
+<tr>
+<td style="padding:0cm 0cm 0cm 0cm;vertical-align:top;"><strong><span style="font-family:細明體;"><span style="font-size:10.5pt;">◎ 本校地址：</span></span></strong><span style="font-size:14px;"><span style="font-family:微軟正黑體;">(24305)新北市泰山區泰林路三段22號</span></span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin:7.5pt 0cm;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-attachment:initial;background-origin:initial;background-clip:initial;"><span style="font-family:verdana,sans-serif;"></span></p>
+<p style="margin:7.5pt 0cm;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-attachment:initial;background-origin:initial;background-clip:initial;"><br />
+<span style="font-family: 微軟正黑體; font-size: 20px; background-color: rgb(255, 255, 0);">本校地理位置圖</span></p>
+<p style="margin:7.5pt 0cm;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-attachment:initial;background-origin:initial;background-clip:initial;"><img alt="" src="/ezfiles/14/1014/img/330/627410369.jpg" style="width: 640px; height: 588px;" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" style="margin:7.5pt 0cm;text-align:center;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-attachment:initial;background-origin:initial;background-clip:initial;"><span style="color:black;"><span style="font-family:verdana,sans-serif;"></span></span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="clr"></div>
+</div>
+
+
+	
+
+			
+
+	</div></div></div>
+
+	</div>
+
+
+	<div class="md_bottom"><div class="mb_03"><div class="mb_02"><div class="mb_01">
+		<img src="/images/clear.gif" alt=""/>
+	</div></div></div></div>
+</div>
+
+   <div class="PtStatistic" style="float: right;">瀏覽數&nbsp;<span id='PtStatistic_17724'></span>&nbsp;</div>
+   <img src="/images/clear.gif" onload="divOs.openSajaxUrl('PtStatistic_17724','/bin/showmodule.php?Mo=101&Type=ptstatistic&Nbr=17724&Param=\$Seq=17724');" alt=""/>
+
+
+
+
+
+<script language='javascript'>
+	         <!--
+               window.print();
+            -->
+         </script><div class="print-btn"><input type="button" value="列印" name="print" onclick="window.print();" onkeypress="window.print();" /></div>
+<script>
+window.print();
+</script>
+<noscript>
+	您的瀏覽器不支援javascript，將使得「列印」按鈕無法使用。請
+直接使用瀏覽器列印功能進行列印。</noscript>
+<!-- generated at Tue May 19 2020 23:44:53 --></body></html>

@@ -1,0 +1,56 @@
+[
+    {
+        "title": "大廚網",
+        "figure": "fig/AiCity-922-大廚網.jpeg",
+        "link": "https://www.dachu.co/",
+        "category": "食譜匯總"
+    },
+    {
+        "title": "楊桃美食網",
+        "figure": "fig/AiCity-922-楊桃美食網.jpg",
+        "link": "https://www.ytower.com.tw/recipe/",
+        "category": "食譜匯總"
+    },
+    {
+        "title": "愛料理",
+        "figure": "fig/AiCity-922-愛料理.jpg",
+        "link": "https://icook.tw/",
+        "category": "食譜匯總"
+    },
+    {
+        "title": "心食譜",
+        "figure": "fig/AiCity-922-心食譜.png",
+        "link": "https://www.xinshipu.com/",
+        "category": "食譜匯總"
+    },
+    {
+        "title": "美食天下",
+        "figure": "fig/AiCity-922-美食天下.jpeg",
+        "link": "https://home.meishichina.com/recipe.html",
+        "category": "食譜匯總"
+    },
+    {
+        "title": "阿基師",
+        "figure": "fig/AiCity-922-阿基師.jpg",
+        "link": "https://www.youtube.com/results?search_query=%E9%98%BF%E5%9F%BA%E5%B8%88%E9%A3%9F%E8%B0%B1&sp=eAE%253D",
+        "category": "主廚教學"
+    },
+    {
+        "title": "吳秉承",
+        "figure": "fig/AiCity-922-吳秉承.jpg",
+        "link": "https://www.youtube.com/results?search_query=%E5%90%B3%E7%A7%89%E6%89%BF%E9%A3%9F%E8%AD%9C",
+        "category": "主廚教學"
+    },
+    {
+        "title": "詹姆士",
+        "figure": "fig/AiCity-922-詹姆士.jpeg",
+        "link": "https://www.youtube.com/results?search_query=%E8%A9%B9%E5%A7%86%E5%A3%AB+%E9%A3%9F%E8%AD%9C",
+        "category": "主廚教學"
+    },
+    {
+        "title": "",
+        "figure": "",
+        "link": "",
+        "category": ""
+    }
+]

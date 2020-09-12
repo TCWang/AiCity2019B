@@ -1,0 +1,552 @@
+[
+    {
+        "title": "黑糖珍珠鮮奶",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-8/Commerce-08-0101-奶茶.jpg",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖仙草鮮奶",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖布丁鮮奶",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-8/Commerce-08-0105-奶酪鮮奶.jpg",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖薏仁鮮奶",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖奶酪鮮奶",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "冷/熱",
+        "suggestion": "推薦",
+        "count": "0",
+        "figure": "",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖綠豆鮮奶",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖紅豆鮮奶",
+        "priceM": "50",
+        "priceL": "60",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖芋圓鮮奶",
+        "priceM": "50",
+        "priceL": "60",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "黑糖三圓鮮奶",
+        "priceM": "50",
+        "priceL": "60",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "黑糖鮮奶"
+    },
+    {
+        "title": "冷泡烏龍",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-8/Commerce-08-0202-善濡好茶.jpg",
+        "category": "善濡好茶"
+    },
+    {
+        "title": "冷泡翠玉",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "推薦",
+        "count": "0",
+        "figure": "",
+        "category": "善濡好茶"
+    },
+    {
+        "title": "冷泡金萱",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "善濡好茶"
+    },
+    {
+        "title": "冷泡四季春",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "善濡好茶"
+    },
+    {
+        "title": "現萃烏龍",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "善濡好茶"
+    },
+    {
+        "title": "特調咖啡",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "極品咖啡"
+    },
+    {
+        "title": "巴西珍奶",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "極品咖啡"
+    },
+    {
+        "title": "冰釀咖啡",
+        "priceM": "55",
+        "priceL": "65",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "極品咖啡"
+    },
+    {
+        "title": "香醇咖啡",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "極品咖啡"
+    },
+    {
+        "title": "曼巴咖啡",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "極品咖啡"
+    },
+    {
+        "title": "焦糖拿鐵",
+        "priceM": "50",
+        "priceL": "60",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "極品咖啡"
+    },
+    {
+        "title": "榛果拿鐵",
+        "priceM": "50",
+        "priceL": "60",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "極品咖啡"
+    },
+    {
+        "title": "珍珠奶茶",
+        "priceM": "35",
+        "priceL": "40",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "巧克力奶茶",
+        "priceM": "35",
+        "priceL": "40",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "芝麻奶茶",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "芋泥奶綠",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "冬瓜鮮奶",
+        "priceM": "35",
+        "priceL": "45",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "珍珠鮮奶茶",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "巧克力鮮奶",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "綠豆沙鮮奶",
+        "priceM": "45",
+        "priceL": "55",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "芋頭鮮奶",
+        "priceM": "55",
+        "priceL": "70",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "風味奶茶"
+    },
+    {
+        "title": "紅茶/綠茶",
+        "priceM": "20",
+        "priceL": "25",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "蜂蜜紅/綠茶",
+        "priceM": "30",
+        "priceL": "35",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "百香紅/綠茶",
+        "priceM": "30",
+        "priceL": "35",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "薄荷紅/綠茶",
+        "priceM": "30",
+        "priceL": "35",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "檸檬紅/綠茶",
+        "priceM": "35",
+        "priceL": "40",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "冬瓜茶",
+        "priceM": "25",
+        "priceL": "30",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "檸檬冬瓜茶",
+        "priceM": "35",
+        "priceL": "40",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "山粉圓冬瓜茶",
+        "priceM": "35",
+        "priceL": "40",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "仙草甘茶",
+        "priceM": "25",
+        "priceL": "35",
+        "temperature": "冷",
+        "suggestion": "推薦",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "檸檬汁",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷/熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "黑糖檸檬愛玉",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "蜂蜜檸檬蘆薈",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "黑糖檸檬石花凍",
+        "priceM": "40",
+        "priceL": "50",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "純萃茶品"
+    },
+    {
+        "title": "冰豆花：三種料",
+        "priceM": "40",
+        "priceL": "",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "甜品饗宴"
+    },
+    {
+        "title": "布丁豆花：三種料",
+        "priceM": "40",
+        "priceL": "",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-8/Commerce-08-0601-豆花.jpg",
+        "category": "甜品饗宴"
+    },
+    {
+        "title": "紅豆湯：三種料",
+        "priceM": "40",
+        "priceL": "",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "甜品饗宴"
+    },
+    {
+        "title": "純綠豆湯",
+        "priceM": "30",
+        "priceL": "",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "甜品饗宴"
+    },
+    {
+        "title": "手工黑糖刨冰：四種料",
+        "priceM": "45",
+        "priceL": "",
+        "temperature": "冷",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "甜品饗宴"
+    },
+    {
+        "title": "冰糖銀耳蓮子",
+        "priceM": "60",
+        "priceL": "",
+        "temperature": "冷",
+        "suggestion": "推薦",
+        "count": "0",
+        "figure": "",
+        "category": "甜品饗宴"
+    },
+    {
+        "title": "傳統熱豆花：三種料",
+        "priceM": "40",
+        "priceL": "",
+        "temperature": "熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-8/Commerce-08-0702-燒仙草.jpg",
+        "category": "冬季限定"
+    },
+    {
+        "title": "燒仙草：三種料",
+        "priceM": "40",
+        "priceL": "",
+        "temperature": "熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "冬季限定"
+    },
+    {
+        "title": "花生湯：三種料",
+        "priceM": "50",
+        "priceL": "",
+        "temperature": "熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "fig/fig-Commerce-8/Commerce-08-0703-花生湯.jpg",
+        "category": "冬季限定"
+    },
+    {
+        "title": "紫米紅豆湯：兩種料",
+        "priceM": "40",
+        "priceL": "",
+        "temperature": "熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "冬季限定"
+    },
+    {
+        "title": "黑糖薑母茶",
+        "priceM": "30",
+        "priceL": "",
+        "temperature": "熱",
+        "suggestion": "",
+        "count": "0",
+        "figure": "",
+        "category": "冬季限定"
+    },
+    {
+        "title": "薑汁杏仁奶",
+        "priceM": "40",
+        "priceL": "",
+        "temperature": "熱",
+        "suggestion": "推薦",
+        "count": "0",
+        "figure": "",
+        "category": "冬季限定"
+    }
+]

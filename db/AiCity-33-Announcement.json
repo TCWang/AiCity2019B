@@ -1,0 +1,79 @@
+[
+    {
+        "datePost": "2020/07/08",
+        "dateValid": "2020/07/16",
+        "number": "Ai樂第1090708001號",
+        "title": "行政管理中心人員異動",
+        "category": "管理",
+        "description": `
+        <dl>
+            <dd>一、行政管理中心編制:經理、秘書各一名。</dd>
+            <dd>二、原經理:張嘉訓先生因個人生涯規劃提出辭呈, 將於109年07月0日終止本社區服務。</dd>
+            <dd>三、接任本社區經理:王凯生先生將於109年07月9日至08日為期三天,進行行政業務交接事項。</dd>
+            <dd>四、原秘書:陳潔女士因個人生涯規劃提出辭呈,將於109年07月09日終止本社區服務。</dd>
+            <dd>五、接任本社區秘書:劉宛怡女士將於109年07月05日至08日為期四天,進行財務行政業務交接事項。</dd>
+            <dd>六、接任本社區經理、秘書職務王凱生先生劉宛怡女士,於109年07月0日起正式服務行政管理中心業務。</dd>
+        </dl>
+        `
+    },
+    {
+        "datePost": "2020/07/08",
+        "dateValid": "2020/07/16",
+        "number": "Ai樂第1090708002號",
+        "title": "行政管理中心服務時間調整",
+        "category": "管理",
+        "description": `
+        <dl>
+            <dd>一、行政管理中心服務時間於07月0日起調整如下:</dd>
+            <ul>
+                <li>秘書服務時間:上午09:00至夜間18:00止。</li>
+                <li>經理服務時間:中午12:00至夜間21:00止。</li>
+                <li>保全服務時間:24小時。</li>
+            </ul>
+            <dd>二、行政管理中心秘書休假當天,經理提前上班時間為上午09:00至夜間18:00止。</dd>
+            <dd>三、行政管理中心經理、秘書輪休日,一人服務時夜間 18:00至21:00暫停受理業務,保全人員可代為處理交辦事項列為交接。</dd>
+            <dd>四、行政管理中心服務時間調整,若造成不便敬請見諒!</dd>
+        </dl>
+        `
+    },
+    {
+        "datePost": "2020/06/16",
+        "dateValid": "2020/07/16",
+        "number": "樂管會字第1090611",
+        "title": "第一屆6月份例會會議記錄",
+        "category": "會議",
+        "description": `
+        <a href="https://drive.google.com/file/d/1_IqYA_hGzggKdx6yVAFiwZe-DLSET1RK/view?usp=sharing">第一屆管委會6月份例會紀錄</a>
+        `
+    },
+    {
+        "datePost": "2020/06/13",
+        "dateValid": "2020/06/20",
+        "number": "A樂第1090613001號",
+        "title": "社區今網WIFI服務",
+        "category": "系統",
+        "description": `
+        <p>無須密碼住戶設定,WIFI即可使用。
+        <dl>
+            <dd>大廳 WIFI: Kingnet 1F & Kingnet 1F_5G</dd>
+            <dd>地下室 B1WIFI: KingnetB1F-1 & KingnetB1F-1_5G & KingnetB1F-2 & KingnetB1F-2_5G</dd>
+            <dd>地下室 B2 WIFI: KingnetB2F-1 & KingnetB2F-1_5G & KingnetB2F-2 & KingnetB2F-2_5G</dd>
+            <dd>地下室 B3 WIFI: KingnetB3F-1 & KingnetB3F-1_5G & KingnetB3F-2 &KingnetB3F-2_5G</dd>
+        </dl>
+        </p>
+        `
+    },
+    {
+        "datePost": "2020/05/29",
+        "dateValid": "2020/06/04",
+        "number": "A樂第1090529001",
+        "title": "汽車ETC申請公告",
+        "category": "管理",
+        "description": `
+        <dl>
+        <dd>1.第一組車號停車證請至大廳領取。</dd>
+        <dd>2.第二組設定ETC需繳交etc工本費150元填寫車牌號、車位號碼並請車開至大廳前掃ETC條碼。(請10點至19點至大廳櫃擡處理)</dd>
+        </dl>
+        `
+    }
+]
