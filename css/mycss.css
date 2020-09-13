@@ -1,4 +1,3 @@
-
 body {
     font-family: STKaiti, DFKai-SB, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
     /*
@@ -8,6 +7,17 @@ body {
         "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", "Microsoft JhengHei", // 指定已知的系統UI字體
         "Helvetica Neue", sans-serif; //備援字體
     */
+}
+#app footer {
+}
+article {
+    padding: 0 5px 2px 5px;
+    margin: 0 5px 2px 5px;
+}
+#main_heading {
+    padding: 0 5px 2px 5px;
+}
+footer {
 }
 
 @media (max-width:543px) {
@@ -62,7 +72,20 @@ body {
 }
 
 .page-footer{
-    background-color:#000066 !important;
+    background-color: #0066FF !important;
+}
+#main_footer {
+    padding: 0 5px 0 10px;
+}
+#app footer {
+    background-color: #006;
+    color: #000;
+}
+#main_heading {
+    padding: 0 5px 0 5px;
+}
+#app footer p {
+    color: #FFF;
 }
 
 #title-1 {
@@ -101,4 +124,12 @@ div.fixed {
     font-size: 12px;
     line-height: 1.42857;
 }
-
+.jumbotron-bg2 {
+	background-image: url("../fig/AiCity-905-樂捷市Logo7.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.bg-lighter {
+		background-color: rgba(0,0,0,.4)
+}
