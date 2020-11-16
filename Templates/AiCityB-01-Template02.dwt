@@ -48,7 +48,7 @@
               <i class="fas fa-home"></i>社區管理
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../AiCityB-31-Introduction.html">社區介紹</a>
+              <a class="dropdown-item" href="../index.html">社區介紹</a>
               <a class="dropdown-item" href="../AiCityB-32-Calendar.html">管理行事曆</a>
               <a class="dropdown-item" href="../AiCityB-33-Announcement.html">社區公告</a>
               <a class="dropdown-item" href="../AiCityB-34-Meeting.html">會議紀錄及財務報表</a>
