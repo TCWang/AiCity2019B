@@ -30,9 +30,9 @@
   <!-- Vue實例的掛載點 -->
   <div id='app'>
 
-    <nav class="navbar navbar-expand-lg bg-secondary">
-      <a class="navbar-brand" href="#">
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../AiCityB-31-Introduction.html">
+		樂捷市社區網
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,30 +45,14 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-user"></i>住戶登入
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../AiCityB-01-Template01.html">個人資訊</a>
-              <a class="dropdown-item" href="../AiCityB-12-SignIn.html">登入註冊</a>
-              <a class="dropdown-item" href="../AiCityB-13-Message.html">住戶留言</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-home"></i>社區管理
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="../AiCityB-31-Introduction.html">社區介紹</a>
-              <a class="dropdown-item" href="../AiCityB-32-Calendar.html">社區行事曆</a>
+              <a class="dropdown-item" href="../AiCityB-32-Calendar.html">管理行事曆</a>
               <a class="dropdown-item" href="../AiCityB-33-Announcement.html">社區公告</a>
-              <a class="dropdown-item" href="../AiCityB-34-Meeting.html">社區會議</a>
-              <a class="dropdown-item" href="../AiCityB-36-Fee.html">繳費管理</a>
-              <a class="dropdown-item" href="../AiCityB-37-Package.html">包裹管理</a>
-              <a class="dropdown-item" href="../AiCityB-38-Repair.html">維修提報</a>
-              <a class="dropdown-item" href="../AiCityB-39-Reservation.html">公設預約</a>
-              <a class="dropdown-item" href="../AiCityB-40-Voting.html">線上投票</a>
-              <a class="dropdown-item" href="../AiCityB-41-Gas.html">瓦斯抄錶</a>
+              <a class="dropdown-item" href="../AiCityB-34-Meeting.html">會議紀錄及財務報表</a>
+              <a class="dropdown-item" href="../AiCityB-35-Regulation.html">社區規約</a>				
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -77,9 +61,8 @@
               <i class="fas fa-info"></i>社區資訊
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../AiCityB-51-Regulation.html">社區規約</a>
               <a class="dropdown-item" href="../AiCityB-52-Transportation.html">交通資訊</a>
-              <a class="dropdown-item" href="../AiCityB-53-A7New.html">新重畫區</a>
+              <a class="dropdown-item" href="../AiCityB-53-A7New.html">A7重劃區</a>
               <a class="dropdown-item" href="../AiCityB-54-YellowPage.html">黃頁查詢</a>
               <a class="dropdown-item" href="../AiCityB-55-County.html">里長服務</a>
               <a class="dropdown-item" href="../AiCityB-56-Councillor.html">議員服務</a>
@@ -96,7 +79,6 @@
               <a class="dropdown-item" href="../AiCityB-71-Commerce.html">社區商店</a>
               <a class="dropdown-item" href="../AiCityB-72-Restaurant.html">餐廳外賣</a>
               <a class="dropdown-item" href="../AiCityB-73-Shopping.html">生活採購</a>
-              <a class="dropdown-item" href="../AiCityB-74-Furniture.html">裝潢居家</a>
               <a class="dropdown-item" href="../AiCityB-75-Health.html">健康養生</a>
               <a class="dropdown-item" href="../AiCityB-76-Sport.html">運動休閒</a>
               <a class="dropdown-item" href="../AiCityB-77-News.html">新聞娛樂</a>
@@ -111,44 +93,37 @@
       </div>
     </nav>
 
-    <!-- Jumbotron-->
-    <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+    <!-- Jumbotron--><!-- TemplateBeginEditable name="JumbotronRegion" -->
+
+      <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
         <div class="container">
-          <!-- TemplateBeginEditable name="jumbotron description " -->
-            <div class="bg-lighter p-1" style="width:300px">
-              <h4 class="text-white" >Insert jumbotron title here</h4>
-              <p class="lead text-white">Insert jumbotron description here</p>
-            </div>
-        <!-- TemplateEndEditable --> </div>
-    </div>
-    <!-- TemplateBeginEditable name="main_editable" -->
-    <div class="container-fluid">
-		<h1>Insert main heading here</h1>
-	  	<div class="row">
-
-		  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-			<aside class="sidebar1">
-			  <p> Side Bar 1 </p>
-			  </aside>
-			</div>
-		  <div class="col-12 col-sm-8 col-md-9 col-lg-10">
-			<section>
-
-			  <article>
-				<h2>Insert sub heading here</h2>
-				<p> Insert paragraph here </p>
-				</article>
-			  </section>
-			</div>
-
-	  	</div>
-    </div>
-
+		  	<div class="bg-lighter p-1" style="width:300px">
+          		<h4 class="text-white" >Insert jumbotron title here</h4>
+          		<p class="lead text-white">Insert jumbotron description here</p>
+   			</div>
+		</div>
+	  </div>
+		
+ 
+    <!-- TemplateEndEditable  -->
+	  
+    <!-- Web Page Title -->
+	<!-- TemplateBeginEditable name="main_heading" -->
+	<h2 id="main_heading"> </h2>
+	<!-- TemplateEndEditable -->
+	  
+	<!-- Vue實例的掛載點 -->
+    <!-- TemplateBeginEditable name="main_content" -->
+    <article> Instert content here 
+	  
+	</article>  
     <!-- TemplateEndEditable -->
-    <footer id="main_footer">
+	
+	<footer id="main_footer">
 		<p>
-				Update footer here  &copy; TCW Smart Lift
+			樂捷市 Tel: 03-327-2090
 		</p>
+
 	</footer>
 	
 	<!-- Vue 的 CDN -->
@@ -166,9 +141,13 @@
       crossorigin="anonymous"></script>
     <!-- Axios 的 CDN -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
+	  
+	<!-- TemplateBeginEditable name="JavaScriptRegion" -->
     <!-- Vue實例的程式碼 -->
+    <div>
+	  
 	</div>
+    <!-- TemplateEndEditable --></div>
  
 </body>
 

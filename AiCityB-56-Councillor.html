@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/AiCityB-01-Template02.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>樂捷市 社區資訊 － 議員服務</title>
+  <meta name="description" content="AiCity Community WebSite 2019">
+  <!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+  <div id='app'>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="AiCityB-31-Introduction.html">
+		樂捷市社區網
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-home"></i>社區管理
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="AiCityB-31-Introduction.html">社區介紹</a>
+              <a class="dropdown-item" href="AiCityB-32-Calendar.html">管理行事曆</a>
+              <a class="dropdown-item" href="AiCityB-33-Announcement.html">社區公告</a>
+              <a class="dropdown-item" href="AiCityB-34-Meeting.html">會議紀錄及財務報表</a>
+              <a class="dropdown-item" href="AiCityB-35-Regulation.html">社區規約</a>				
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-info"></i>社區資訊
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="AiCityB-52-Transportation.html">交通資訊</a>
+              <a class="dropdown-item" href="AiCityB-53-A7New.html">A7重劃區</a>
+              <a class="dropdown-item" href="AiCityB-54-YellowPage.html">黃頁查詢</a>
+              <a class="dropdown-item" href="AiCityB-55-County.html">里長服務</a>
+              <a class="dropdown-item" href="AiCityB-56-Councillor.html">議員服務</a>
+              <a class="dropdown-item" href="AiCityB-57-City.html">市府資訊</a>
+              <a class="dropdown-item" href="AiCityB-58-Country.html">政府通告</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-shopping-cart"></i>生活資訊
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="AiCityB-71-Commerce.html">社區商店</a>
+              <a class="dropdown-item" href="AiCityB-72-Restaurant.html">餐廳外賣</a>
+              <a class="dropdown-item" href="AiCityB-73-Shopping.html">生活採購</a>
+              <a class="dropdown-item" href="AiCityB-75-Health.html">健康養生</a>
+              <a class="dropdown-item" href="AiCityB-76-Sport.html">運動休閒</a>
+              <a class="dropdown-item" href="AiCityB-77-News.html">新聞娛樂</a>
+              <a class="dropdown-item" href="AiCityB-78-Food.html">食譜教學</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Jumbotron--><!-- InstanceBeginEditable name="JumbotronRegion" -->
+
+      <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+        <div class="container">
+		  	<div class="bg-lighter p-1" style="width:300px">
+          		<h4 class="text-white" >桃園民意代表</h4>
+          		<p class="lead text-white">與立法委員及地區議員互動</p>
+   			</div>
+		</div>
+	  </div>
+		
+ 
+    <!-- InstanceEndEditable -->
+	  
+    <!-- Web Page Title -->
+	<!-- InstanceBeginEditable name="main_heading" -->
+	<h2 id="main_heading"> </h2>
+	<!-- InstanceEndEditable -->
+	  
+	<!-- Vue實例的掛載點 -->
+    <!-- InstanceBeginEditable name="main_content" -->
+    <article> 
+    <div id="app" class="container-fluid mt-1">
+      <div class="row">
+
+        <div class="col-md-2">
+          <h3>民意代表服務</h3>
+          <div class="list-group" id="MenuList" role="tablist">
+            <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">民意代表</a>
+            <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">陳雅倫 議員</a>
+            <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">林正峰 議員</a>
+            <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">牛煦庭 議員</a>
+            <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">林俐玲 議員</a>
+            <a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">鄭運鵬 委員</a>
+          </div>
+
+        </div>
+        <div class="col-md-10">
+
+          <div class="tab-content">
+
+            <div class="tab-pane active" id="Menu-B1" role="tabpanel">
+              <!-- Menu B1 -->
+              <div class="row mb-1">
+                <h3>本屆議員 - 第二選區 龜山區 </h3>
+              </div>
+              <div class="row">
+                <div class="col-6 col-sm-6 col-4 col-lg-3">
+                  <div class=card-header>
+                    <a href="https://www.facebook.com/profile.php?id=2141577432747856">陳雅倫 議員</a>
+                  </div>
+                  <div class="card-body">
+                    <img src="fig/AiCity-917-陳雅倫.jpg" style="width:200px">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-4 col-lg-3">
+                  <div class="card-header">
+                    <a href="https://www.facebook.com/profile.php?id=100008316096117">林正峰 議員</a>
+                  </div>
+                  <div class="card-body">
+                    <img src="fig/AiCity-917-林正峰.jpg" style="width:200px">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-4 col-lg-3">
+                  <div class="card-header">
+                    <a href="https://www.facebook.com/18NIUstart/">牛煦庭 議員</a>
+                  </div>
+                  <div class="card-body">
+                    <img src="fig/AiCity-917-牛煦庭.jpeg" style="width:200px">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-4 col-lg-3">
+                  <div class="card-header">
+                    <a href="https://www.facebook.com/linlieling">林俐玲 議員</a>
+                  </div>
+                  <div class="card-body">
+                    <img src="fig/AiCity-917-林俐玲.jpg" style="width:200px">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <h3>本屆立法委員 - 桃園市 第一選區 </h3>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-4 col-lg-3">
+                  <div class="card-header">
+                    <a href="https://www.facebook.com/nicepoonpoon/">鄭運鵬 委員</a>
+                  </div>
+                  <div class="card-body">
+                    <img src="fig/AiCity-917-鄭運鵬.jpg" style="width:200px">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="Menu-B2" role="tabpanel">
+              <!-- Menu B2 -->
+              <div class="row">
+                <h3>陳雅倫 議員 </h3>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <p>通訊資料</p>
+                  <dl>
+                    <dd>服務處：龜山區振興路795巷19之1號2樓</dd>
+                    <dd>電話:03-329-2020</dd>
+                    <dd>郵件：ashleychyl@gmail.com</dd>
+                  </dl>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p>主要政績</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="Menu-B3" role="tabpanel">
+              <!-- Menu B3 -->
+              <div class="row">
+                <h3>林正峰 議員 </h3>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <p>通訊資料</p>
+                  <dl>
+                    <dd>服務處：333龜山區萬壽路二段９２１號</dd>
+                    <dd>電話:03-350-3611</dd>
+                    <dd>郵件：tycca125@tycc.gov.tw</dd>
+                  </dl>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p>主要政績</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="Menu-B4" role="tabpanel">
+              <!-- Menu B4 -->
+              <div class="row ">
+                <h3>牛煦庭 議員</h3>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <p>通訊資料</p>
+                  <dl>
+                    <dd>服務處：龜山區大華里20鄰復興一路356-1號</dd>
+                    <dd>電話:03-397-3543</dd>
+                    <dd>傳真:03-3973543 </dd>
+                    <dd>郵件：niu-office@tycc.gov.tw</dd>
+                  </dl>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p>主要政績</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="Menu-B5" role="tabpanel">
+              <!-- Menu B5 -->
+              <div class="row">
+                <h3>林俐玲 議員 </h3>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <p>通訊資料</p>
+                  <dl>
+                    <dd>服務處：龜山區山鶯路一巷15之1號</dd>
+                    <dd>電話:03-320-7676</dd>
+                    <dd>郵件：linlieling@gmail.com ; tycca086@tycc.gov.tw</dd>
+                  </dl>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p>主要政績</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="Menu-B6" role="tabpanel">
+              <!-- Menu B6 -->
+              <div class="row">
+                <h3>鄭運鵬 委員 </h3>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <p>通訊資料</p>
+                  <dl>
+                    <dd>服務處：桃園市龜山區萬壽路二段1050號</dd>
+                    <dd>電話:03-350-9005</dd>
+                    <dd>郵件：</dd>
+                  </dl>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p>主要政績</p>
+                  <ul>
+                    <li>
+                      <a href="http://xn--6or66eo1t8u6a.tw/part2_1_3.php?qry_sect=9&qry_id_1=161">口袋國會</a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>		
+	  
+	</article>  
+    <!-- InstanceEndEditable -->
+	
+	<footer id="main_footer">
+		<p>
+			樂捷市 Tel: 03-327-2090
+		</p>
+
+	</footer>
+	
+	<!-- Vue 的 CDN -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <!-- Bootstrap 4 JavaScript 的 CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <!-- Axios 的 CDN -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	  
+	<!-- InstanceBeginEditable name="JavaScriptRegion" -->
+    <!-- Vue實例的程式碼 -->
+    <div>
+	  
+	</div>
+    <!-- InstanceEndEditable --></div>
+ 
+</body>
+
+<!-- InstanceEnd --></html>
